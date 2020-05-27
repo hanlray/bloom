@@ -1,0 +1,25 @@
+<% include ../../../views/header %>
+<div class="container">
+    <script>
+        var buyContext = {
+            isBuyNow: <%=isBuyNow%>,
+            itemId: <%=params.itemId%>
+        };
+    </script>
+    <% if(!isBuyNow){%>
+    <form action="#" id="post58">
+        <div class="form-group">
+            <label for="price">价格</label>
+            <input type="text" class="form-control" id="price" name="price" value="<%=params.price%>" />
+        </div>
+        <div class="form-group">
+            <label for="startDate">开始时间</label>
+            <input type="text" class="form-control" id="startDate" name="startDate" />
+        </div>
+        <button type="button" class="btn btn-default start" disabled>开始</button>
+    </form>
+    <% } %>
+    <div id="status"></div>
+    <div id="bloom-captchaes"></div>
+</div>
+<% include ../../../views/footer %>

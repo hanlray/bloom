@@ -1,0 +1,38 @@
+<% include ../../../views/header %>
+<div class="container">
+    <form action="#" id="post58">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" name="title" />
+        </div>
+        <div class="form-group">
+            <label for="description">描述</label>
+            <textarea class="form-control" rows="3" id="description" name="description"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="price">Price</label>
+            <input type="text" class="form-control" id="price" name="price" />
+        </div>
+        <div class="form-group">
+            <label for="image">Image</label>
+            <select class="form-control" id="image" name="image">
+                <option value=""></option>
+            </select>
+        </div>
+        <div id="categories" class="form-group">
+            <label for="category">Category</label>
+            <select class="form-control catTop" name="catTop">
+                <option value="37">数码产品</option>
+                <option value="40">家居/日用品</option>
+                <option value="41">服装/鞋帽/箱包</option>
+                <option value="39">二手家电</option>
+                <option value="45">母婴/儿童用品</option>
+            </select>
+            <select class="form-control catLevel2" name="catLevel2">
+            </select>
+        </div>
+        <button type="button" class="btn btn-default start" disabled>开始</button>
+        <div id="status"></div>
+    </form>
+</div>
+<% include ../../../views/footer %>

@@ -1,0 +1,71 @@
+#bloom-wrap {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.bloom-btn {
+    cursor: pointer;
+    padding: 5px 2em;
+    background: #F22D00;
+    color: #FFF;
+    margin-right: 5px;
+}
+.bloom-btn:hover {
+    color: #FFF;
+}
+
+button.bloom-buy-btn {
+    background: #77a2d2;
+    margin-left: 2px;
+}
+input.bloomCode, input.startdate, #J_detail input.price {
+    border: 2px #ff5000 solid;
+}
+#bloom-captchaes {
+    margin: 1em 10%;
+}
+/* for h5 taobao */
+#J_detail #bloom-wrap {
+    flex-wrap: wrap;
+}
+#J_detail #bloom-wrap .bloom-captchaes, #J_detail #bloom-wrap .buylater-form {
+    width: 100%;
+}
+#J_detail .is-pay, #J_detail .is-checkprice {
+    -webkit-appearance: checkbox;
+}
+
+/* for m.jd.com */
+div#mainLayout #cart1 {
+    height: auto;
+}
+div#mainLayout #cart1 a.bloom-btn {
+    background: #f8285c;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+    display: inline-block;
+    width: 40%;
+    margin-right: 2px;
+}
+
+/* for juanpi */
+.app .buy_btn {
+    height: auto;
+}
+.app .bloom-buynow-wrap {
+    width: 94%;
+    margin: 6px 3% 0;
+}
+.app .bloom-buynow-wrap .bloom-btn{
+    height: 42px;
+    line-height: 42px;
+    background: #f8285c;
+    width: 55%;
+    border: 1px solid #d9d9d9;
+    margin-right: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}

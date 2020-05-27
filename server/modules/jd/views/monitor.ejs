@@ -1,0 +1,13 @@
+<% include ../../../views/header %>
+<div class="container">
+    <script>
+        var buyContext = {
+            isBuyNow: <%=isBuyNow%>,
+            itemId: <%=params.itemId%>
+        };
+        var id = <%=params.id%>;
+    </script>
+    <div id="status"></div>
+    <div id="bloom-captchaes"></div>
+</div>
+<% include ../../../views/footer %>

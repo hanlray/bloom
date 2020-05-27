@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title><%=title%></title>
+
+    <base href="<%=base%>">
+
+    <link href="style.css" rel="stylesheet" >
+    <% if(locals.styles){ %>
+    <% for(var i=0; i<styles.length; i++){%>
+    <link href="<%= styles[i] %>" rel="stylesheet" >
+    <% } %>
+    <% } %>
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class='container'>

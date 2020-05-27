@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bloom",
+  "description": "extension for Bloom",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://item.taobao.com/*"],
+      "css": ["lib/Intimidatetime/Intimidatetime.min.css", "style.css"],
+      "js": ["helper.js", "taobao.js"]
+    },
+    {
+      "matches": ["*://h5.m.taobao.com/awp/core/detail.htm?*"],
+      "css": ["lib/datetimepicker/jquery.datetimepicker.css", "style.css"],
+      "js": ["helper.js", "taobao_h5m.js"]
+    },
+    {
+      "matches": ["*://detail.m.tmall.com/item.htm?*"],
+      "css": ["lib/datetimepicker/jquery.datetimepicker.css", "style.css"],
+      "js": ["helper.js", "tmall.js"]
+    },
+    {
+      "matches": ["*://m.juanpi.com/shop/*"],
+      "css": ["lib/Intimidatetime/Intimidatetime.min.css", "style.css"],
+      "js": ["helper.js", "juanpi.js"]
+    },
+    {
+      "matches": ["https://item.jd.com/*"],
+      "css": ["lib/Intimidatetime/Intimidatetime.min.css", "style.css"],
+      "js": ["helper.js", "jd.js"]
+    },
+    {
+      "matches": ["http://item.m.jd.com/product/*"],
+      "css": ["lib/datetimepicker/jquery.datetimepicker.css", "style.css"],
+      "js": ["helper.js", "jd_m.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "lib/jquery-2.1.4.min.js", "lib/socket.io-1.3.5.js",
+    "lib/Intimidatetime/Intimidatetime.min.js", "lib/datetimepicker/jquery.datetimepicker.full.min.js",
+    "lib/uuidv1.js",
+    "taobao_real.js", "taobao_h5m_real.js",
+    "tmall_real.js", "juanpi_real.js", "jd_real.js", "jd_m_real.js"
+  ],
+  "permissions": [
+    "tabs",
+    "https://item.taobao.com/*",
+    "https://item.jd.com/*"
+  ]
+}
