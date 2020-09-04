@@ -24,7 +24,7 @@
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",
     "moment": "^2.10.6",
-    "mongodb": "^2.2.4",
+    "mongodb": "^3.1.13",
     "node-gcm": "^0.14.10",
     "node-schedule": "^0.2.9",
     "node-uuid": "^1.4.7",
