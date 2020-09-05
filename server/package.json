@@ -48,7 +48,7 @@
     "jquery-datetimepicker": "2.5.17",
     "jquery-form": "^4.2.2",
     "merge-stream": "^1.0.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "popper": "^1.0.1",
     "popper.js": "^1.12.9",
     "postcss-loader": "^2.1.0",
