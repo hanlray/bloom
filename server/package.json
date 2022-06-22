@@ -12,7 +12,7 @@
     "ejs": "^2.3.4",
     "extend": "^3.0.0",
     "fs-extra": "^5.0.0",
-    "got": "^6.3.0",
+    "got": "^11.8.5",
     "html-entities": "^1.2.0",
     "iconv-lite": "^0.4.13",
     "jquery-validation": "^1.14.0",
