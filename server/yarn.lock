@@ -3751,13 +3751,11 @@ jquery-form@^4.2.2:
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
 
-jquery-validation@^1.14.0:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.17.0.tgz#ab66b6b583d7740b9bbd148993e50e8ac041f35b"
-  dependencies:
-    jquery "^1.7 || ^2.0 || ^3.1"
+jquery-validation@^1.19.5:
+  version "1.19.5"
+  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.19.5.tgz#557495b7cad79716897057c4447ad3cd76fda811"
 
-"jquery@>= 1.7.2", jquery@>=1.7.2, "jquery@^1.7 || ^2.0 || ^3.1", jquery@^3.3.1:
+"jquery@>= 1.7.2", jquery@>=1.7.2, jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
