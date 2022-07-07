@@ -23,7 +23,7 @@
     "koa-json": "^2.0.2",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",
-    "moment": "^2.10.6",
+    "moment": "^2.29.4",
     "mongodb": "^2.2.4",
     "node-gcm": "^0.14.10",
     "node-schedule": "^0.2.9",
